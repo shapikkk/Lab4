@@ -1,0 +1,64 @@
+@import url('https://fonts.google.com/share?selection.family=Montserrat:wght@100..900|Open+Sans:ital,wght@0,300..800;1,300..800');
+
+body
+{
+    font-family: "Open Sans", sans-serif;;
+    font-size: 1 rem;
+}
+
+.header-box
+{
+    display: flex;
+    align-items: center;
+    padding: 2.2em 3.94em;
+    justify-content: space-around;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.header-list
+{
+    display: flex;
+}
+
+.header-list-item
+{
+    padding: 10px 20px;
+}
+
+.header-button
+{
+    text-decoration: none;
+    font-weight: 500;
+    outline: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.first-screen
+{
+    background-image: url('./utils/images/side-view-people-living-healthy-life7-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.about-div
+{
+    margin-left: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 560.99px;
+    height: 480.99px;
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}

@@ -1,0 +1,32 @@
+a
+{
+    outline: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+.about-div h1
+{
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+.about-div p
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    line-height: 38.4px;
+}
+
+.green-button
+{
+    width: 180px;
+    border: 1.8px solid  #658161;
+    background-color: #ffff;
+    padding: 18px 36px;
+    color: #658161;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
