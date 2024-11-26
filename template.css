@@ -30,3 +30,196 @@ a
     text-transform: uppercase;
     font-weight: 700;
 }
+
+.h2Paragarph h2
+{
+    font-size: 48px;
+}
+
+.h2Paragarph p
+{
+    font-size: 20px;
+}
+
+.h2Paragarph
+{
+    padding: 30px 23px;
+}
+
+.ul-list-2Screeen
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.ul-list-2Screeen li
+{
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+.ul-list-2Screeen img
+{
+    height: 14.39px;
+    width: 14.39px;
+}
+
+.margin-pargraph
+{
+    margin-top: 30px;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+}
+
+.p-block
+{
+    padding: 30px;
+}
+
+.d-flex
+{
+    display: flex;
+}
+
+.t-size-color
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.flex-row img
+{
+    width: 39px;
+    height: 39px;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.section-title h2 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 26px;
+    margin: 0 50px;
+}
+
+.grid-item {
+    display: flex;
+    padding: 20px;
+}
+
+.grid-item .icon {
+    width: 38.99px;
+    height: 38.99px;
+    margin-right: 15px; 
+}
+
+.grid-item h4 {
+    font-size: 24px;
+    margin: 0 0 5px 0;
+}
+
+.grid-item p {
+    font-size: 16px;
+    margin-top: 23px;
+    line-height: 28.8px;
+}
+
+.grid-fScreen {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 колонки */
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*                                          4 screen                                      */
+.card {
+    background-color: #ffffff;
+    width: 268.5px;
+    height: 351px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.grid-container-4
+{
+    background-color: #d4e2d2;
+    height: 661px;
+}
+
+.section-title-4
+{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.section-title-4 h2
+{
+    font-size: 48px;
+    color: #111111;
+    margin: 60px 185.824px 0px;
+}
+
+.section-title-4 p
+{
+    font-size: 18px;
+    color: #111111;
+    margin: 11px 262.045px 0px;
+}
+
+.grid-fScreen
+{
+    margin-top: 50px;
+}
+
+.card h5 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 28.8px;
+    margin-top: 20px;
+}
+
+.more-btn {
+    align-self: center;
+    width: 110px;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #b6ccb2;
+    background-color: #ffffff;
+    border: 2px solid #b6ccb2;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.more-btn:hover {
+    background-color: #b6ccb2;
+    color: white;
+}

@@ -4,6 +4,8 @@ body
 {
     font-family: "Open Sans", sans-serif;;
     font-size: 1 rem;
+    margin: 0;
+    padding: 0;
 }
 
 .header-box
@@ -61,4 +63,41 @@ body
     padding: 30px 40px;
     background-color: #ffffff;
     border-radius: 10px;
+}
+
+.woman-eating-salad
+{
+    padding: 1.4375rem;
+    margin-left: 18em;
+}
+
+.woman-salad-image
+{
+    height: 635.99px;
+    width: 418px;
+    border-radius: 10px;
+}
+
+.green-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 245px;
+    background-color: #658161;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.green-container img
+{
+    width: 64px;
+    height: 64px;
+}
+
+.margin-txt
+{
+    margin: 60px 221.165px 0px;
 }
