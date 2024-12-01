@@ -5,6 +5,12 @@ a
     color: #000000;
 }
 
+.f-column
+{
+    display: flex;
+    flex-direction: column;
+}
+
 .about-div h1
 {
     font-size: 3.75rem;
@@ -99,6 +105,7 @@ a
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    height: 627px;
 }
 
 .section-title h2 {
@@ -139,7 +146,7 @@ a
 
 .grid-fScreen {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 колонки */
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
@@ -222,4 +229,16 @@ a
 .more-btn:hover {
     background-color: #b6ccb2;
     color: white;
+}
+
+.contact-left h2
+{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.contact-left p 
+{
+    font-size: 20px;
+    line-height: 36px;
 }

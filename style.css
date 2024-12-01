@@ -1,18 +1,16 @@
 @import url('https://fonts.google.com/share?selection.family=Montserrat:wght@100..900|Open+Sans:ital,wght@0,300..800;1,300..800');
 
-body
-{
-    font-family: "Open Sans", sans-serif;;
-    font-size: 1 rem;
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
     margin: 0;
     padding: 0;
 }
 
-.header-box
-{
+.header-box {
     display: flex;
     align-items: center;
-    padding: 2.2em 3.94em;
+    padding: 5vh 5vw;
     justify-content: space-around;
     position: fixed;
     background-color: white;
@@ -22,18 +20,15 @@ body
     z-index: 10;
 }
 
-.header-list
-{
+.header-list {
     display: flex;
 }
 
-.header-list-item
-{
-    padding: 10px 20px;
+.header-list-item {
+    padding: 1vh 2vw;
 }
 
-.header-button
-{
+.header-button {
     text-decoration: none;
     font-weight: 500;
     outline: none;
@@ -41,63 +36,159 @@ body
     text-transform: uppercase;
 }
 
-.first-screen
-{
+.first-screen {
     background-image: url('./utils/images/side-view-people-living-healthy-life7-min.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
-    width: 100%;
     height: 100vh;
 }
 
-.about-div
-{
-    margin-left: 15em;
+.about-div {
+    margin-left: 15vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 560.99px;
-    height: 480.99px;
-    padding: 30px 40px;
+    width: 35vw;
+    height: 60vh;
+    padding: 2em 3em;
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 1em;
 }
 
-.woman-eating-salad
-{
-    padding: 1.4375rem;
-    margin-left: 18em;
+.woman-eating-salad {
+    padding: 1.5rem;
+    margin-left: 18vw;
 }
 
-.woman-salad-image
-{
-    height: 635.99px;
-    width: 418px;
-    border-radius: 10px;
+.woman-salad-image {
+    height: 80vh;
+    width: 27vw;
+    border-radius: 1em;
 }
 
-.green-container
-{
+.green-container {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 245px;
+    width: 20vw;
+    height: 30vh;
     background-color: #658161;
-    border-radius: 10px;
+    border-radius: 1em;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.green-container img
-{
-    width: 64px;
-    height: 64px;
+.green-container img {
+    width: 4vw;
+    height: 4vw;
 }
 
-.margin-txt
+.margin-txt {
+    margin: 8vh 15vw 0;
+}
+
+.contact-container 
 {
-    margin: 60px 221.165px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5rem;
+    max-width: 1210px;
+    height: 651px;
+    margin: 0 auto;
+}
+
+.contact-left 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-evenly;
+    background-color: #d4e2d2;
+    width: 337.97px;
+    height: 486.989px;
+    padding: 1.875em;
+    border-radius: 10px;
+}
+
+.profile-img 
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.25rem;
+}
+
+.contact-right 
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.5rem;
+}
+
+.form-group 
+{
+    margin-bottom: 1.25rem;
+}
+
+.form-group:first-child 
+{
+    margin-right: 1.25rem;
+}
+
+label 
+{
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.3125rem;
+}
+
+input, textarea 
+{
+    width: 333px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #6581616a;
+    border-radius: 5px;
+}
+
+textarea 
+{
+    resize: vertical;
+    height: 100px;
+    width: 740px;
+}
+
+button.submit-btn 
+{
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    width: 768px;
+    background-color: #658161;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.submit-btn:hover 
+{
+    background-color: #658161;
+}
+
+.footer-last {
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+
+.footer-last p {
+    font-size: 0.875rem;
+    color: #ffffff;
 }
