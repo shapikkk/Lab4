@@ -1,227 +1,204 @@
-a
-{
+a {
     outline: none;
     text-decoration: none;
     color: #000000;
 }
 
-.f-column
-{
+.f-column {
     display: flex;
     flex-direction: column;
 }
 
-.about-div h1
-{
+.about-div h1 {
     font-size: 3.75rem;
     font-weight: 700;
 }
 
-.about-div p
-{
-    margin-top: 40px;
-    margin-bottom: 40px;
+.about-div p {
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
     font-size: 1.5rem;
-    line-height: 38.4px;
+    line-height: 2.4rem;
 }
 
-.green-button
-{
-    width: 180px;
-    border: 1.8px solid  #658161;
-    background-color: #ffff;
-    padding: 18px 36px;
+.green-button {
+    width: 12vw;
+    border: 0.12em solid #658161;
+    background-color: #ffffff;
+    padding: 1.2em 2.4em;
     color: #658161;
-    border-radius: 10px;
+    border-radius: 0.6em;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-.h2Paragarph h2
-{
-    font-size: 48px;
+.h2Paragarph h2 {
+    font-size: 3rem;
 }
 
-.h2Paragarph p
-{
-    font-size: 20px;
+.h2Paragarph p {
+    font-size: 1.25rem;
 }
 
-.h2Paragarph
-{
-    padding: 30px 23px;
+.h2Paragarph {
+    padding: 2em 1.5em;
 }
 
-.ul-list-2Screeen
-{
+.ul-list-2Screeen {
     display: flex;
     flex-direction: column;
 }
 
-.ul-list-2Screeen li
-{
-    font-size: 18px;
-    padding-top: 25px;
+.ul-list-2Screeen li {
+    font-size: 1.125rem;
+    padding-top: 2vh;
 }
 
-.ul-list-2Screeen img
-{
-    height: 14.39px;
-    width: 14.39px;
+.ul-list-2Screeen img {
+    height: 1vh;
+    width: 1vh;
 }
 
-.margin-pargraph
-{
-    margin-top: 30px;
+.margin-pargraph {
+    margin-top: 2vh;
     font-size: 1.25rem;
     line-height: 2.25rem;
 }
 
-.p-block
-{
-    padding: 30px;
+.p-block {
+    padding: 2em;
 }
 
-.d-flex
-{
+.d-flex {
     display: flex;
 }
 
-.t-size-color
-{
-    font-size: 18px;
+.t-size-color {
+    font-size: 1.125rem;
     font-weight: 700;
     color: #ffffff;
 }
 
-.flex-row img
-{
-    width: 39px;
-    height: 39px;
+.flex-row img {
+    width: 2.5vw;
+    height: 2.5vw;
 }
 
 .grid-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    height: 627px;
+    padding: 2vh;
+    height: 60vh;
 }
 
 .section-title h2 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 400;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 26px;
-    margin: 0 50px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+    margin: 0 5vw;
 }
 
 .grid-item {
     display: flex;
-    padding: 20px;
+    padding: 2vh;
 }
 
 .grid-item .icon {
-    width: 38.99px;
-    height: 38.99px;
-    margin-right: 15px; 
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-right: 1vw;
 }
 
 .grid-item h4 {
-    font-size: 24px;
-    margin: 0 0 5px 0;
+    font-size: 1.5rem;
+    margin: 0 0 0.3em 0;
 }
 
 .grid-item p {
-    font-size: 16px;
-    margin-top: 23px;
-    line-height: 28.8px;
+    font-size: 1rem;
+    margin-top: 1.5vh;
+    line-height: 1.8rem;
 }
 
 .grid-fScreen {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    max-width: 1200px;
+    gap: 2vw;
+    max-width: 80vw;
     margin: 0 auto;
 }
 
-
-/*                                          4 screen                                      */
 .card {
     background-color: #ffffff;
-    width: 268.5px;
-    height: 351px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 18vw;
+    height: 50vh;
+    padding: 2vh;
+    border-radius: 0.6em;
+    box-shadow: 0 0.4vh 1vh rgba(0, 0, 0, 0.1);
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.grid-container-4
-{
+.grid-container-4 {
     background-color: #d4e2d2;
-    height: 661px;
+    height: 80vh;
 }
 
-.section-title-4
-{
+.section-title-4 {
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
 }
 
-.section-title-4 h2
-{
-    font-size: 48px;
+.section-title-4 h2 {
+    font-size: 3rem;
     color: #111111;
-    margin: 60px 185.824px 0px;
+    margin: 4vh 12vw 0;
 }
 
-.section-title-4 p
-{
-    font-size: 18px;
+.section-title-4 p {
+    font-size: 1.125rem;
     color: #111111;
-    margin: 11px 262.045px 0px;
+    margin: 0.7vh 17vw 0;
 }
 
-.grid-fScreen
-{
-    margin-top: 50px;
+.grid-fScreen {
+    margin-top: 4vh;
 }
 
 .card h5 {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 0.7em;
 }
 
 .card p {
-    font-size: 16px;
+    font-size: 1rem;
     font-style: italic;
-    line-height: 28.8px;
-    margin-top: 20px;
+    line-height: 1.8rem;
+    margin-top: 1.5vh;
 }
 
 .more-btn {
     align-self: center;
-    width: 110px;
-    padding: 8px 16px;
-    font-size: 14px;
+    width: 7vw;
+    padding: 0.5em 1em;
+    font-size: 0.875rem;
     color: #b6ccb2;
     background-color: #ffffff;
-    border: 2px solid #b6ccb2;
-    border-radius: 5px;
+    border: 0.15em solid #b6ccb2;
+    border-radius: 0.3em;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -231,14 +208,12 @@ a
     color: white;
 }
 
-.contact-left h2
-{
-    font-size: 48px;
+.contact-left h2 {
+    font-size: 3rem;
     font-weight: 400;
 }
 
-.contact-left p 
-{
-    font-size: 20px;
-    line-height: 36px;
+.contact-left p {
+    font-size: 1.25rem;
+    line-height: 2.25rem;
 }
